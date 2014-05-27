@@ -10,8 +10,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+ 
   <remote  name="NPOmni"
            fetch="https://github.com/NPOmni" />
+           
+  <remote  name="Omni-tablets"
+           fetch="https://github.com/Omni-tablets" />
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
@@ -251,7 +255,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="NPOmni" revision="android-4.4" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="Omni-tablets" revision="android-4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
